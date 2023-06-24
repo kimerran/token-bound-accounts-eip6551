@@ -1,0 +1,8 @@
+# Verify Account
+npx hardhat verify --network mumbai 0x695cc3A466F3f410ea5daf9E0431cF212684E430 0x83FE64Bc14b124f65Eb5249b9BA45b66e3eFFe4C
+
+# Verify Registry
+npx hardhat verify --network mumbai 0x670e1041801cfcF0c5b17972a7D94bb6d0752A72 0x695cc3A466F3f410ea5daf9E0431cF212684E430
+
+# Verify TBA NFT
+npx hardhat verify --network mumbai 0xd8662db7895cd7197D51ED75EF889716b7Cf7E6F 0x670e1041801cfcF0c5b17972a7D94bb6d0752A72

@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@0xsequence/sstore2": "github:0xsequence/sstore2",
+    "@openzeppelin/contracts": "^4.9.2",
+    "@tokenbound/sdk": "^0.3.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.16.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  },
+  "name": "tba",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx hardhat test ./test/TBA.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
